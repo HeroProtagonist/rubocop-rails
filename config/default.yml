@@ -16,6 +16,8 @@ AllCops:
   # application.  If neither of those files exist, RuboCop will use Rails 5.0
   # as the default.
   TargetRailsVersion: ~
+  DocumentationBaseUrl: https://docs.rubocop.org/rubocop-rails
+
 
 Lint/NumberConversion:
   # Add Rails' duration methods to the ignore list for `Lint/NumberConversion`
